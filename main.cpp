@@ -19,7 +19,7 @@ public:
         }
             
     }
-    
+    //this is test
     matrix(const std::vector<T>& vec) {       
         if (vec.size() != sutun * satir)
             throw std::invalid_argument("Vektor buyuklugu uygun degil");
